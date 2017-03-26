@@ -86,8 +86,10 @@ public void onConnected() {
 
 Callback names **should** at least contain method path.
 
-Ex. Remote.api.run -> **apiRun**
-Ex. Remote.submodule.hello -> **submoduleHello**
+Samples:
+
+- Remote.api.run -> **apiRun**
+- Remote.submodule.hello -> **submoduleHello**
 
 ### Multiple Callbacks
 
