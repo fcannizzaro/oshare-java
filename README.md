@@ -7,15 +7,16 @@ Node Object Sharing (Socket) | **Remote Method Invocation** | Support for **call
 # Library
 Import [Jar](https://github.com/fcannizzaro/oshare-java)
 
-# Usage
+## Before Start
 
-## 0. Code Generation (Server)
 ```javascript
 var io = share.server(3000, shared, callback, 'java');
 ```
 
 - insert language param 'java' and run the server. (**only once**)
 - a **Remote.java** file will be created in the root.
+
+# Usage
 
 ## 1. Share Methods/Fields
 
