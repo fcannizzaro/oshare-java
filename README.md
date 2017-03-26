@@ -2,7 +2,9 @@
 
 Node Object Sharing (Socket) | **Remote Method Invocation** | Support for **callbacks**
 
-# Library
+# Java client of [Oshare](https://github.com/fcannizzaro/oshare)
+
+## Library
 Import [Jar](https://github.com/fcannizzaro/oshare-java/releases/tag/1.0.2)
 
 ## Before Start
@@ -119,6 +121,6 @@ public void onConnected() {
 
 ## Sample
 
-See [Main.java](https://github.com/fcannizzaro/oshare-java/blob/master/sample/src/main/java/Main.java)]
+See [Main.java](https://github.com/fcannizzaro/oshare-java/blob/master/sample/src/main/java/Main.java)
 
 
