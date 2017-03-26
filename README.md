@@ -64,7 +64,7 @@ public class Main implements ReadyListener {
 ## Annotations
 
 ### Share([, value])
-- **value** optional name/path.
+- **value** optional name/path (*default = field name*).
 
 ### Callback
 Mark method as callback.
@@ -88,8 +88,8 @@ Callback names **should** at least contain method path.
 
 Samples:
 
-- Remote.api.run -> **apiRun**
-- Remote.submodule.hello -> **submoduleHello**
+- Remote.api.run() -> **apiRun()**
+- Remote.submodule.hello() -> **submoduleHello()**
 
 ### Multiple Callbacks
 
