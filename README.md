@@ -112,7 +112,7 @@ void multi1(Integer value) {
 
 @Override
 public void onConnected() {
-  // add callbacks argument
+  // add callback arguments
   // callbacks are assigned in order.
   // multi0 , multi1
   Remote.multi(Oshare.Cb(this), Oshare.Cb(this));
