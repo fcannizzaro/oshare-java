@@ -21,7 +21,7 @@ var io = share.server(3000, shared, callback, 'java');
 ## 1. Share Methods/Fields
 
 ```java
-@Share
+@Share('constant.java')
 private Integer java = 8;
 
 @Share
@@ -37,7 +37,7 @@ Shared.register(this);
 
 ## 3. Connect Socket
 
-#### init(String url, Class remote, [, ReadyListener])
+### init(String url, Class remote, [, ReadyListener])
 
 ```java
 Oshare.init("http://localhost:3000", Remote.class, this);
@@ -65,13 +65,13 @@ public class Main implements ReadyListener {
 
 ## Annotations
 
-### Share([, value])
-- **value** optional name/path (*default = field name*).
+### @Share([, value])
+- **value** fake name/path (*default = field name*).
 
-### Callback
+### @Callback
 Mark method as callback.
 
-## Callback
+## Callback Usage
 
 ```java
 @Callback
