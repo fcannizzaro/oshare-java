@@ -79,7 +79,7 @@ void apiRun(String value, Integer number) {
 
 @Override
 public void onConnected() {
-  // add Callback Object as parameter
+  // add callback argument
   Remote.api.run(Oshare.Callback(this));
 }
 ```
@@ -106,9 +106,15 @@ void multi1(Integer value) {
 
 @Override
 public void onConnected() {
-  // add Callback Object as parameter
+  // add callbacks argument
   // callbacks are assigned in order.
   // multi0 , multi1
   Remote.multi(Oshare.Cb(this), Oshare.Cb(this));
 }
 ```
+
+## Sample
+
+See [Main.java](https://github.com/fcannizzaro/oshare-java/blob/master/sample/src/main/java/Main.java)]
+
+
