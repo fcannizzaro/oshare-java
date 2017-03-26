@@ -2,10 +2,8 @@
 
 Node Object Sharing (Socket) | **Remote Method Invocation** | Support for **callbacks**
 
-[![npm](https://img.shields.io/npm/v/oshare.svg)](https://www.npmjs.com/package/oshare)
-
 # Library
-Import [Jar](https://github.com/fcannizzaro/oshare-java)
+Import [Jar](https://github.com/fcannizzaro/oshare-java/releases/tag/1.0.2)
 
 ## Before Start
 
