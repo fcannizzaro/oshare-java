@@ -30,7 +30,7 @@ private void alert(String str) {
 
 ## 2. Register Sharing Classes
 ```java
-  Shared.register(this);
+Shared.register(this);
 ```
 
 ## 3. Connect Socket
@@ -64,10 +64,10 @@ public class Main implements ReadyListener {
 ## Annotations
 
 ### Share([, value])
-- value optional name/path
+- **value** optional name/path.
 
 ### Callback
-Mark method as callback
+Mark method as callback.
 
 ## Callback
 
@@ -84,9 +84,12 @@ public void onConnected() {
 }
 ```
 
-Create a method containing method path in the name.
+---
+Callback names __**should** at least contain method path.
+---
 
 Ex. Remote.api.run -> **apiRun**
+Ex. Remote.submodule.hello -> **submoduleHello**
 
 ### Multiple Callbacks
 
