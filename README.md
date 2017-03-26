@@ -79,8 +79,12 @@ void apiRun(String value, Integer number) {
 
 @Override
 public void onConnected() {
+
   // add callback argument
   Remote.api.run(Oshare.Callback(this));
+
+  // pass your arguments
+  Remote.api.submodule.hello("fcannizzaro", 22);
 }
 ```
 
