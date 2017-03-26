@@ -84,9 +84,7 @@ public void onConnected() {
 }
 ```
 
----
-Callback names __**should** at least contain method path.
----
+Callback names **should** at least contain method path.
 
 Ex. Remote.api.run -> **apiRun**
 Ex. Remote.submodule.hello -> **submoduleHello**
