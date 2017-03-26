@@ -1,0 +1,14 @@
+group 'oshare'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile ('io.socket:socket.io-client:0.8.3')
+}
