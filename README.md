@@ -83,7 +83,7 @@ void apiRun(String value, Integer number) {
 public void onConnected() {
 
   // add callback argument
-  Remote.api.run(Oshare.Callback(this));
+  Remote.api.run(Oshare.Cb(this));
 
   // pass your arguments
   Remote.api.submodule.hello("fcannizzaro", 22);
