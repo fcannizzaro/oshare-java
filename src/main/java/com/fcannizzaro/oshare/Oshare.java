@@ -156,10 +156,19 @@ public class Oshare {
         }
 
         try {
+
             JSONObject packet = new JSONObject();
+            JSONArray arguments = new JSONArray();
+
+            for (Object arg : args) {
+                arguments.put(arg);
+            }
+
             packet.put("method", key);
-            packet.put("args", args);
+            packet.put("args", arguments);
+
             instance.socket.emit("invoke", packet);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
