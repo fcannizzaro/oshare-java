@@ -37,7 +37,7 @@ Shared.register(this);
 
 ## 3. Connect Socket
 
-### init(String url, Class remote, [, ReadyListener])
+### init(String url, Class remote, [ , String [authorization](https://github.com/fcannizzaro/oshare#options), ReadyListener listener ])
 
 ```java
 Oshare.init("http://localhost:3000", Remote.class, this);

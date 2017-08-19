@@ -22,8 +22,9 @@ public class Main implements ReadyListener {
         // register shared methods
         Shared.register(this);
 
+
         // connect and run
-        Oshare.init("http://localhost:3000", Remote.class, this);
+        Oshare.init("http://localhost:3000", Remote.class, "$auth-key", this);
 
     }
 
